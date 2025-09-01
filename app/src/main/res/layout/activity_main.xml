@@ -12,20 +12,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Frase para mostrar"/>
+        android:text="Texto textview"/>
 
     <Button
         android:id="@+id/botao"
+        android:text="@string/clique_aqui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Repetir"
         android:layout_gravity="center_horizontal"/>
 
     <EditText
         android:id="@+id/texto"
+        android:inputType="text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"/>
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/Digite_texto"/>
 
     <TextView
         android:id="@+id/novoTexto"
